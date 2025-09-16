@@ -38,7 +38,7 @@ while True:
         y = y - 2
         delay(0.01)
 
-    x = 1
+    x = 10
     while (x <= 400):
         clear_canvas_now()
         grass.draw_now(400, 30)
