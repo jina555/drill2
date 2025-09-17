@@ -46,6 +46,47 @@ while True:
         x = x + 2
         delay(0.01)
 
+
+    x=400
+    while(x<=700):
+        clear_canvas_now()
+        grass.draw_now(400, 30)
+        character.draw_now(x, 90)
+        x = x + 2
+        delay(0.01)
+
+    y=90
+    x=700
+    while(y<=400 and x>=400):
+        clear_canvas_now()
+        grass.draw_now(400, 30)
+        character.draw_now(x,y)
+        x=x-2
+        y=y+2
+        delay(0.01)
+
+
+    y=400
+    x=400
+    while(y>=90 and x>=100):
+        clear_canvas_now()
+        grass.draw_now(400,30)
+        character.draw_now(x,y)
+        x=x-2
+        y=y-2
+        delay(0.01)
+
+    y=90
+    x=100
+    while(x<=400):
+        clear_canvas_now()
+        grass.draw_now(400,30)
+        character.draw_now(x,y)
+        x=x+2
+        delay(0.01)
+
+
+
     import math
 
     theta = -3 / 2 * math.pi
